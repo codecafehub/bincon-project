@@ -406,9 +406,11 @@
    /* responsiveness */
 
 
-  @media (max-width: 620px) {
-    body{
-        width: 100%;
+  @media (max-width: 600px) {
+  
+    .wrapper{
+       max-width: 100%;
+       overflow: hidden;
     }
     .nav-toggle img{
         width: 30px;
@@ -438,5 +440,77 @@
         align-items: center;
         margin: 0 auto;
     }
+
+  }
+
+  @media (max-width: 380px) {
+  
+
+    .image-section{
+        width: 100%;
+        height: 320vh;
+        
+        
+     }
+    
+     .image-section .row img{
+       width: 350px;
+       height: 350px;
+       padding: 20px;
+       align-items: center;
+       padding-left: 50px;
+     }
+
+  }
+
+
+
+  @media  only screen and (max-width: 399px) {
+    .wrapper{
+        max-width: 100%;
+        overflow: hidden;
+     }
+
+     .cv-section{
+        display: none;
+     }
+
+    
+     .image-section .row img{
+       width: 350px;
+       height: 350px;
+       padding: 20px;
+       margin: auto;
+       display: flex;
+     }
+
+     .image-section{
+        width: 100%;
+        height: 320vh;  
+     }
+
+  }
+
+  @media  only screen and (min-width: 400px) {
+
+     /* .image-section{
+        display: none;
+     } */
+    
+
+  }
+
+
+  @media  only screen and (max-width: 768px) {
+
+    /* .image-section{
+       
+        display: none;
+      } */
+      
+      /* .wrapper{
+        max-width: 100%;
+        overflow: hidden;
+     } */
 
   }
