@@ -14,6 +14,9 @@
     justify-content: space-around;
 }
 
+.nav{
+    margin-left: 500px;
+}
 .nav-toggle img{
     width: 30px;
     height: 30px;
